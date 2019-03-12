@@ -1,0 +1,33 @@
+GIT Instructions:
+
+To Clone Repository: (copy file(s) from server to you. *Places a copy of repository on local machine
+
+1) copy link from Gitlab for repository
+2) go to cmd line
+3) navigate to folder where you want to place repository
+4) type: git clone *copied link*
+*Placed a copy of repository on local machine
+
+
+Then to send file back to global repository:
+
+1) make changes to some file, add a file to local repository...
+
+2) at cmd line type: git status
+	This will tell you status of file (if its tracked and/or commited)
+
+3) if untracked and uncommited then, type: git add *file name*
+	This will track the file in a staging area, before you commit changes to local repo.  The git add command moves changes from the working directory to the Git staging area. The staging area is where you prepare a snapshot of a set of changes before committing them to the official history.
+
+4) finally to commit changes, type: git commit -m 'message'
+	The git commit takes the staged snapshot and commits it to the project history.  
+	IMPORTANT: The above changes ONLY update files at the local level.  Up until this point, everything you have done is on your 	local system and invisible to your global repository
+
+5) git push origin master
+	*takes committed changes to global repository
+
+
+GIT PULL: updates to global directories can be brought down with git Pull
+1) *navigate to the top level of your local repository,i.e. local repo folder
+2) git pull --all command to pull all the changes from global repository
+
