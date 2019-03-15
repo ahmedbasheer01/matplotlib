@@ -1,0 +1,6 @@
+You must include a written description of three observable trends based on the data.
+
+Based on graphs: 
+1) Urban drivers provide the greastest number of rides and have the most drivers.
+2) Rural drivers account for nearly 3x their share in drivers.  They bring in 6.8% of total fares but constitute only 2.6% of total drivers.
+3)  The above observation is similar to suburban drivers (15% drivers, 30% fare share). The conclusion being that rural and urban trips are likely longer in distance or duration thus accounting for higher fare average.  This is supported by the bubble scatter plot as well.
